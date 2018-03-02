@@ -1,9 +1,9 @@
-package com.test.refined
+package com.test.refinements
 
+import akka.http.scaladsl.model.{Uri => AkkaUri}
 import eu.timepit.refined.W
 import eu.timepit.refined.api.{Refined, Validate}
 import eu.timepit.refined.string._
-import akka.http.scaladsl.model.{Uri => AkkaUri}
 
 import scala.util.Try
 

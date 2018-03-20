@@ -3,7 +3,7 @@ version := "0.1"
 scalaVersion := "2.12.4"
 
 val refinedVersion                  = "0.8.7"
-val akkaHttpVersion                 = "10.0.11"
+val akkaHttpVersion                 = "10.1.0"
 
 
 lazy val refined     = "eu.timepit" %% "refined"      % refinedVersion
